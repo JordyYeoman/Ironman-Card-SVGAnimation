@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177.237" height="126.677" viewBox="0 0 177.237 126.677">
+  <g id="Top-part" transform="translate(-190.736 -245.146)">
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="matrix(0.105, -0.995, 0.995, 0.105, 297.335, 343.814)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(308.255 300.1) rotate(-17)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <rect width="10" height="75" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="74" fill="none"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="matrix(0.695, -0.719, 0.719, 0.695, 282.432, 356.796)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <rect width="54" height="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="2" fill="none"/>
+    </g>
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="matrix(0.695, -0.719, 0.719, 0.695, 285.432, 366.796)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <rect width="54" height="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="2" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(262.255 300.1) rotate(-17)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <rect width="10" height="75" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="74" fill="none"/>
+    </g>
+    <path id="Subtraction_5" data-name="Subtraction 5" d="M163.582,100.071,0,46.919,12.4,8.754,30.169.087,30.347,0l137.44,44.657,8.282,16.982L163.581,100.07h0Z" transform="translate(191.366 245.684)" fill="#ff6565" stroke="#707070" stroke-width="1"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(266 296)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(317 313)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+    </g>
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(235.335 245.314) rotate(18)" fill="#cfcfcf" stroke="#707070" stroke-width="1">
+      <rect width="117" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="15" fill="none"/>
+    </g>
+  </g>
+</svg>

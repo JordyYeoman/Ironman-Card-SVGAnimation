@@ -1,0 +1,68 @@
+:root {
+  --transformx-pos: 87px;
+  --transformY-pos: 63.5px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.SVG-master {
+  padding-top: 100px;
+  height: 200vh;
+}
+
+.SVG-elements-container {
+  position: relative;
+}
+
+.SVG-elements-container2 {
+  position: relative;
+  left: -10vw;
+  transform: rotateY(180deg);
+}
+
+.SVG-container-cap2 {
+  position: absolute;
+  left: 0px;
+  transform: rotateX(180deg);
+  top: 928px;
+}
+
+.Top-Part-Ironman {
+  position: absolute;
+  left: 185px;
+  top: 90px;
+}
+
+.Bottom-Part-Ironman {
+  position: absolute;
+  top: 711px;
+  left: 185px;
+  z-index: 1;
+}
+
+.Bottom-Part-Ironman-bottomright-piece {
+  position: absolute;
+  top: 711px;
+  left: 185px;
+}
+
+.Bottom-Part-Ironman-bottomleft-piece {
+  position: absolute;
+  top: 711px;
+  left: 185px;
+}
+
+.Bottom-Part-Ironman-bottomcenter-pieces {
+  position: absolute;
+  top: 711px;
+  left: 185px;
+}
+
+.Center-Part-Ironman {
+  position: absolute;
+  left: 200px;
+  top: 170px;
+  z-index: 2;
+}
