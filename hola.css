@@ -3,23 +3,79 @@
   --transformY-pos: 63.5px;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@300;800&display=swap");
+
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  font-family: "Commissioner", sans-serif;
 }
 
-.SVG-master {
-  padding-top: 100px;
-  height: 200vh;
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.col-md {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn-iron1 {
+  background-color: #ec1717f2 !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.btn-iron1:hover {
+  background-color: #ec6617f2 !important;
+  color: rgb(255, 246, 246) !important;
+  font-weight: 600 !important;
+}
+
+.card-body {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+/* 
+START CARD STYLES */
+.card-container-styles {
+  width: 350px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ff9494;
+}
+.card-container-styles h3 {
+  color: #000;
+}
+/* 
+END CARD STYLES */
+
+.SVG-master,
+.SVG-master2,
+.SVG-master3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .SVG-elements-container {
   position: relative;
+  height: 100%;
 }
 
 .SVG-elements-container2 {
-  position: relative;
-  left: -10vw;
+  position: absolute;
   transform: rotateY(180deg);
+  height: 100%;
+  right: 0;
+  top: 0;
 }
 
 .SVG-container-cap2 {
@@ -31,33 +87,33 @@ body {
 
 .Top-Part-Ironman {
   position: absolute;
-  left: 185px;
+  left: 0;
   top: 90px;
 }
 
 .Bottom-Part-Ironman {
   position: absolute;
-  top: 711px;
-  left: 185px;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 
 .Bottom-Part-Ironman-bottomright-piece {
   position: absolute;
-  top: 711px;
-  left: 185px;
+  top: 0;
+  left: 0;
 }
 
 .Bottom-Part-Ironman-bottomleft-piece {
   position: absolute;
-  top: 711px;
-  left: 185px;
+  top: 0;
+  left: 0;
 }
 
 .Bottom-Part-Ironman-bottomcenter-pieces {
   position: absolute;
-  top: 711px;
-  left: 185px;
+  top: 0;
+  left: 0;
 }
 
 .Center-Part-Ironman {
@@ -65,4 +121,68 @@ body {
   left: 200px;
   top: 170px;
   z-index: 2;
+}
+
+/* 
+NEW SVG STYLES FOR SCALING DOWN VECTOR */
+.Center-Part-Ironman {
+  width: 50px;
+  height: 12rem;
+  left: -25px;
+  top: 25%;
+}
+
+.Bottom-Part-Ironman,
+.Bottom-Part-Ironman2 {
+  position: absolute;
+  top: 64.8%;
+  left: -30px;
+  z-index: 1;
+  width: 60px;
+  height: 63.618px;
+}
+
+.SVG-container-cap {
+  position: relative;
+  height: 100%;
+}
+
+.SVG-container-cap2 {
+  position: relative;
+  height: 100%;
+  transform: rotateX(180deg);
+  top: -103.6%;
+}
+
+.Bottom-Part-Ironman-bottomright-piece,
+.Bottom-Part-Ironman-bottomright-piece2 {
+  position: absolute;
+  top: 58.9%;
+  left: -47px;
+  width: 80px;
+}
+
+.Bottom-Part-Ironman-bottomcenter-pieces,
+.Bottom-Part-Ironman-bottomcenter-pieces2 {
+  position: absolute;
+  top: 237px;
+  left: -31px;
+  width: 60px;
+}
+
+.Bottom-Part-Ironman-bottomleft-piece,
+.Bottom-Part-Ironman-bottomleft-piece2 {
+  position: absolute;
+  top: 237px;
+  width: 80px;
+  left: -39px;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("/assets/ironman-wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
 }
